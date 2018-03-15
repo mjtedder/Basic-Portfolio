@@ -1,43 +1,64 @@
+/* Basic Portfolio CSS Stylesheet */
+/* General Body Styling */
 body {
-  width: 960px;
   background-image: url(../images/spiration-light.png);
+  color: #777777;
+  width: 100%;
+  position: relative;
+  width: 960px;
+}
+
+.content {
+  width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Div Top Bar Section Styling */
 .header {
   display: flex;
   justify-content: space-between;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/* 'Your Name' Box Styling */
 h1 {
   background-color: #4aaaa5;
   color: #ffff;
   padding: 14px 16px;
 }
 
+/* 'About Me', 'Portfolio', 'Contact' Styling */
 h2 {
   color: #4aaaa5;
 }
 
+/* Profile Picture Styling */
 #bio-image {
   float: left;
   margin-right: 10px;
 }
 
+/* Hides Box Overflow for 'About', 'Portfolio', 'Contact' Links */
 .topnav {
   overflow: hidden;
 }
 
+/* Box Styling for Portfolio Section */
 .icon {
   position: relative;
   float: left;
   margin: 5px;
-  font-size: 14px;
+  font-size: 10px;
   text-align: center;
 }
 
+/*Animates Icons in Portfolio Secion */
+.icon:hover {
+  opacity: .5;
+}
+
+/* Text Styling for Portfolio Section */
 h3 {
   position: absolute;
   top: 145px;
@@ -47,32 +68,33 @@ h3 {
   background-color: #4aaaa5;
 }
 
-
-
+/* Styling for 'About' 'Portfolio' 'Contact' Links */
 .topnav a {
   float: left;
   color: #777777;
   text-align: center;
   padding: 14px 16px;
+  border-right: 1px solid;
 }
 
+/* Animates links in Top Bar Section */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #4aaaa5;
   color: black;
 }
 
+/* Main Div Section Styling */
 div.container {
   padding: 20px;
+  margin-top: 20px;
   background-color: white;
   font-family: arial, 'Helvetica Neue', Helvetica, sans-serif;
-  height: 600px;
-}
-
-div.container_two {
-  font-family: arial, 'Helvetica Neue', Helvetica, sans-serif;
+  overflow: auto;
+  line-height: 20px;
 
 }
 
+/* Contact Page Box Styling */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -84,11 +106,13 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+
 input[type=submit]:hover {
   background-color: #ddd;
 
 }
 .footer {
+    position: relative;
     background-color: #666666;
     color: #ffffff;
     border-top-style: solid;
@@ -98,7 +122,6 @@ input[type=submit]:hover {
     height: 50px;
     bottom: 0px;
     width: 100%;
+    font-size: 10px;
 
 }
-
---*/
