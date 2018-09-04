@@ -1,6 +1,6 @@
 # Portfolio 1.0
 
-This is one of many versions of my professional portfolio I will be writing.  It will showcase my journey as a developer.  This version contains an About Me, Contact and Project page.
+This is one of many versions of my professional portfolio.  It will showcase my journey as a developer.  This version contains an About Me, Contact and Project page.
 
 ## Tools
 
