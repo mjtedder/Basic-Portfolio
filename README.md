@@ -8,7 +8,7 @@ HTML5 | CSS3
 
 ## Demo
 
-You can view this page at [Portfolio 1.0](https://mjtedder.github.io/Web-Design-Skeleton/)
+You can view this page at [Portfolio 1.0](https://mjtedder.github.io/Portfolio-1.0/)
 
 ## Installation
 
